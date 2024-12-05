@@ -1,9 +1,1 @@
-import sys
-
-def newbranch_bruteeforce (prices):
-	newprice = -sys.maximum
-	for i, price in enumerate(prices):
-		for j in range(i, len(prices)):
-			newprice = max(prices[j] - price, newprice)
-
-	return newprice
+hello git
